@@ -31,7 +31,7 @@ class CSV:
       print('Entry added successfully!')
 
   @classmethod
-  def get_transactions(cls, start_date = '01-01-1900', end_date = '31-12-2100'):
+  def get_transactions(cls, start_date, end_date):
     df = pd.read_csv(cls.CSV_FILE)
     df["date"] = pd.to_datetime(df['date'], format=cls.FORMAT)
     start_date = pd.to_datetime(start_date, format=cls.FORMAT)

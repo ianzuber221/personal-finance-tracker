@@ -23,13 +23,13 @@ pip install pandas matplotlib
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/personal-finance-tracker.git
+   git clone https://github.com/ianzuber221/personal-finance-tracker.git
    cd personal-finance-tracker
    ```
 2. Add your financial data in the required format (e.g., CSV or Excel).
 3. Run the script:
    ```bash
-   python tracker.py
+   python main.py
    ```
 4. View the generated reports and visualizations.
 
